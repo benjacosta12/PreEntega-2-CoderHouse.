@@ -1,0 +1,67 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Gentium+Book+Plus&family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+</style>
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .logo{
+    font-family: 'Gentium Book Plus', serif;
+ }
+
+ .nav-link{
+    font-size: large;
+ }
+
+ .navbar-brand{
+    font-size: x-large;
+ }
+
+ .banner{
+    background-image: url(../img/cine.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 300px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+ }
+
+ h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Gentium Book Plus', serif;
+ }
+
+  .perfilimg{
+    width: 200px;
+  }
+
+.color{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+.parrafoperfil{
+    font-size:xx-large;
+}
+
