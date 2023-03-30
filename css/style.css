@@ -5,9 +5,9 @@
  *{
     margin: 0;
     padding: 0;
- }
+}
 
- .logo{
+.logo{
     font-family: 'Gentium Book Plus', serif;
  }
 
@@ -15,21 +15,28 @@
     font-size: large;
  }
 
- .navbar-brand{
+.navbar-brand{
     font-size: x-large;
+    
  }
 
- .banner{
+.navbar{
+    background-color: black !important;
+}
+
+
+
+.banner{
     background-image: url(../img/cine.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 300px;
     display: flex;
     align-items: center;
-     justify-content: center;
- }
+    justify-content: center;
+}
 
- h1{
+h1{
     color:black;
     font-size: 100px;
     font-family: 'Gentium Book Plus', serif;
@@ -37,7 +44,7 @@
 
 .perfilimg{
     width: 200px;
-  }
+}
 
 .color{
     background-color: black;
@@ -93,6 +100,40 @@ footer p{
     text-align: center;
 }
 
- .separados{
+.separados{
     margin-top: 10px;
- }
+}
+
+div label{
+    color: yellow;
+    font-family: 'Open Sans';
+
+}
+
+    legend{
+        color: yellow;
+        font-family: 'Open Sans';
+    }
+    
+    form{
+        display: grid;
+    }
+
+    .btn{
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans';
+
+    }
+
+    .hover:hover{
+        background-color: yellow;
+    }
+    
+    input::placeholder{
+        font-weight: bold;
+        opacity: 0,5;
+        color: black;
+        font-family: 'Open Sans';
+    }
+
